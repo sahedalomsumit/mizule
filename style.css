@@ -1,0 +1,106 @@
+:root{
+    --primary-color--:#3795A8;
+    --primary-overlay--: rgba(50, 146, 156, 0.7);
+}
+body{
+    margin-top: 90px;
+}
+.navbar{
+    box-shadow: 2px 2px 5px var(--primary-color--);
+    background: #fff;
+    opacity: 0.9;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+.nav-item{
+    padding-right: 20px;
+    font-size: 22px;
+}
+.nav-item:last-child{
+    padding-right: 0px;
+}
+.nav-link{
+    color:#252525!important;
+}
+.nav-link:hover{
+    color:var(--primary-color--)!important;
+}
+#showcase{
+    background: url('img/mountains.jpg');
+    min-height: 600px;
+    position: relative;
+}
+.primary-overlay{
+    background: var(--primary-overlay--);
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    border-radius: 0px;
+}
+#subscribe{
+    background-color: #252525;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.form-group input{
+    border-radius: 0;
+}
+button{
+    background-color: var(--primary-color--)!important;
+}
+.box2,.box4{
+    background-color: var(--primary-color--);
+}
+.box1 h3, .box3 h3{
+    color: var(--primary-color--);
+}
+#box .card{
+    border-radius: 0px;
+    border-color: var(--primary-color--);
+}
+#about h1{
+    color: var(--primary-color--);
+}
+
+#meetTheAuthors h1{
+    color: var(--primary-color--);
+}
+
+#authors img{
+    margin-top: -60px;
+}
+#authors .card{
+    border-radius: 0px;
+}
+
+#authors i{
+    font-size: 25px;
+}
+
+#authors .card:hover{
+    background-color: var(--primary-color--);
+    color: #fff;
+}
+#authors .card:hover #authors i{
+    color: #fff!important;
+}
+#contact .btn-primary{
+    background-color: var(--primary-color--);
+}
+
+footer{
+    background-color: var(--primary-color--);
+}
+
+@media only screen and (max-width:480px){
+    .m-res{
+        font-size: 48px;
+    }
+}
